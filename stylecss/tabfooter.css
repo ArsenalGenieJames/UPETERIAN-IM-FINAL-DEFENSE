@@ -1,0 +1,44 @@
+        #newsfeed {
+            overflow-y: auto;
+            max-height: calc(110vh - 120px);
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #FFFFFF;
+            z-index: 100;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: #FFFFFF;
+            z-index: 100;
+        }
+
+        #newsfeed {
+            margin-top: 66px;
+        }
+
+        #newsfeed .card img,
+        #newsfeed .card video {
+            width: 100%;
+            height: auto;
+        }
+
+        .footertab {
+            margin: 14px;
+        }
+
+        .footericon {
+            color: #B8B8B8;
+            /* Default color */
+        }
+
+        .footericon.active {
+            color: #640003;
+            /* Active color */
+        }

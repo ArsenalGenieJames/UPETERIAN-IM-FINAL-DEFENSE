@@ -1,0 +1,65 @@
+   body {
+       font-family: "Montserrat", serif;
+       font-optical-sizing: auto;
+       font-weight: <weight>;
+       font-style: normal;
+   }
+ .profile {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+  }
+
+  .profile-img{
+      max-width: 90px;
+      border-radius: 50%;
+      border: 3px solid #640003;
+  }
+
+  .file-input-wrapper {
+      position: relative;
+      display: inline-block;
+  }
+
+  .file-input-wrapper input[type="file"] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+  }
+
+  .file-input-wrapper .icon-wrapper {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid #F3F4F6;
+      border-radius: 50%;
+      background: #640003;
+      cursor: pointer;
+      width: 20px;
+      height: auto;
+  }
+
+  .file-input-wrapper .icon-wrapper i {
+      font-size: 15px;
+      color: #ffff;
+  }
+
+  .mmday {
+      text-decoration: none;
+      font-size: 15px;
+      color: #640003;
+  }
+  .username{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    color: #640003;
+  }
